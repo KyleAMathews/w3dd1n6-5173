@@ -1,0 +1,67 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3668012, 2018-11-06T17:10:12-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: BenguiatProITC-Book by ITC
+ * URL: https://www.myfonts.com/fonts/itc/benguiat/pro-book/
+ *
+ * Webfont: BenguiatProITC-BookItalic by ITC
+ * URL: https://www.myfonts.com/fonts/itc/benguiat/pro-book-italic/
+ *
+ * Webfont: BenguiatProITC-Medium by ITC
+ * URL: https://www.myfonts.com/fonts/itc/benguiat/pro-medium/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3668012
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 1985, 1987, 1990, 1992, 1993, 2001 Adobe Systems Incorporated.  Typeface designs Copyright 2007 International Typeface Corporation. All rights reserved.
+ *
+ * © 2018 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/37f82c");
+
+@font-face {
+  font-family: "Benguiat";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("webfonts/37F82C_0_0.eot");
+  src: url("webfonts/37F82C_0_0.eot?#iefix") format("embedded-opentype"),
+    url("webfonts/37F82C_0_0.woff2") format("woff2"),
+    url("webfonts/37F82C_0_0.woff") format("woff"),
+    url("webfonts/37F82C_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Benguiat";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("webfonts/37F82C_1_0.eot");
+  src: url("webfonts/37F82C_1_0.eot?#iefix") format("embedded-opentype"),
+    url("webfonts/37F82C_1_0.woff2") format("woff2"),
+    url("webfonts/37F82C_1_0.woff") format("woff"),
+    url("webfonts/37F82C_1_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Benguiat";
+  font-family: "Benguiat";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("webfonts/37F82C_2_0.eot");
+  src: url("webfonts/37F82C_2_0.eot?#iefix") format("embedded-opentype"),
+    url("webfonts/37F82C_2_0.woff2") format("woff2"),
+    url("webfonts/37F82C_2_0.woff") format("woff"),
+    url("webfonts/37F82C_2_0.ttf") format("truetype");
+}

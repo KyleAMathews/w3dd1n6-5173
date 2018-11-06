@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Louize";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../../LouizeTrial-205TF/LouizeTrial-Regular.otf") format("woff"); /* Modern Browsers */
+}
+@font-face {
+  font-family: "Louize";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../../LouizeTrial-205TF/LouizeTrial-Bold.otf") format("woff"); /* Modern Browsers */
+}
