@@ -257,9 +257,7 @@ const App = ({ data }) => (
         <p>
           Please{" "}
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSccHdyHjeKBAjO0ObhvTJVMBLBJ8RaNTL
-        fYzs1Mp2rNTqT4SA/viewform?fbclid=IwAR0OFp7bKP4lsDV4hUjKlJuoLJNGtxbAucVIS
-        35cFfburwyv6BeeYUqwKeI"
+            href="https://goo.gl/forms/Pvtw07KwpudKbxCx1"
           >
             click here to RSVP if you haven’t yet!
           </a>
