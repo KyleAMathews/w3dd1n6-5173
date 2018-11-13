@@ -106,7 +106,6 @@ const App = ({ data }) => (
           fluid={data.small.childImageSharp.fluid}
         />
         <Img
-          critical
           css={{
             display: `none`,
             [mq[1]]: { display: `block` },
@@ -115,7 +114,6 @@ const App = ({ data }) => (
           fluid={data.medium.childImageSharp.fluid}
         />
         <Img
-          critical
           css={{
             display: `none`,
             [mq[3]]: { display: `block` },
@@ -259,9 +257,7 @@ const App = ({ data }) => (
         <h1 id="rsvp">RSVP</h1>
         <p>
           Please{" "}
-          <a
-            href="https://goo.gl/forms/Pvtw07KwpudKbxCx1"
-          >
+          <a href="https://goo.gl/forms/Pvtw07KwpudKbxCx1">
             click here to RSVP if you haven’t yet!
           </a>
         </p>
