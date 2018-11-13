@@ -98,6 +98,7 @@ const App = ({ data }) => (
     <React.Fragment>
       <Box css={{ position: `relative`, overflow: `hidden` }}>
         <Img
+          critical
           css={{
             display: `block`,
             [mq[1]]: { display: `none` },
@@ -105,6 +106,7 @@ const App = ({ data }) => (
           fluid={data.small.childImageSharp.fluid}
         />
         <Img
+          critical
           css={{
             display: `none`,
             [mq[1]]: { display: `block` },
@@ -113,6 +115,7 @@ const App = ({ data }) => (
           fluid={data.medium.childImageSharp.fluid}
         />
         <Img
+          critical
           css={{
             display: `none`,
             [mq[3]]: { display: `block` },
