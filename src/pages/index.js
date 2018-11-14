@@ -367,10 +367,10 @@ const App = ({ data }) => (
         <h3>Schedule:</h3>
         <dl>
           <dt>5:00–6:00 pm</dt>
-          <dd>Reception line to great the happy couple and their families!</dd>
+          <dd>Reception line to greet the happy couple and their families!</dd>
           <dt>6:00–6:30 pm</dt>
           <dd>
-            The happy couple will be eating with their families at a table
+            The happy couple will be eating with their families
           </dd>
           <dt>6:30–7:00 pm</dt>
           <dd>
