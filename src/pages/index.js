@@ -4,6 +4,7 @@ import theme from "../utils/theme";
 import { Box, Text, Heading } from "rebass/emotion";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { scale, rhythm, options } from "../utils/typography";
 
 import shannon from "../../images/shannon-adoringly.jpg";
@@ -137,36 +138,40 @@ const App = ({ data }) => (
             }}
           >
             <Li>
-              <a
+              <AnchorLink
+                offset={17.3}
                 css={{ color: `inherit`, textDecoration: `none` }}
                 href="#our-story"
               >
                 Our Story
-              </a>
+              </AnchorLink>
             </Li>
             <Li>
-              <a
+              <AnchorLink
+                offset={17.3}
                 css={{ color: `inherit`, textDecoration: `none` }}
                 href="#venues"
               >
                 Venues
-              </a>
+              </AnchorLink>
             </Li>
             <Li>
-              <a
+              <AnchorLink
+                offset={17.3}
                 css={{ color: `inherit`, textDecoration: `none` }}
                 href="#registry"
               >
                 Gift Registry
-              </a>
+              </AnchorLink>
             </Li>
             <Li>
-              <a
+              <AnchorLink
+                offset={17.3}
                 css={{ color: `inherit`, textDecoration: `none` }}
                 href="#rsvp"
               >
                 RSVP
-              </a>
+              </AnchorLink>
             </Li>
           </nav>
           <Box
@@ -194,11 +199,14 @@ const App = ({ data }) => (
         <Img fluid={data.party.childImageSharp.fluid} />
         <p>
           <em>
-            The first known photo of Shannon and Kyle at a Halloween party (see if you can find Kyle in the photo! Hint: he's wearing a vest)
+            The first known photo of Shannon and Kyle at a Halloween party (see
+            if you can find Kyle in the photo! Hint: he's wearing a vest)
           </em>
         </p>
         <h3>May, 2009</h3>
-        <p>Kyle and Shannon go on a double date with… each other's roommates!</p>
+        <p>
+          Kyle and Shannon go on a double date with… each other's roommates!
+        </p>
         <p>
           Shannon says she wants to edit a science journal. Kyle thinks: “What
           an attractive woman!”
@@ -241,7 +249,8 @@ const App = ({ data }) => (
         <h3>May 2015</h3>
         <p>
           It’s been 6 years since we last talked, and then Shannon follows Kyle
-          on Spotify and thinks a song he's listening to is cool. Listen to the song below!
+          on Spotify and thinks a song he's listening to is cool. Listen to the
+          song below!
         </p>
         <iframe
           src="https://open.spotify.com/embed/track/01txDiOnBPfMrVQwPQtDHR"
@@ -252,14 +261,18 @@ const App = ({ data }) => (
           allow="encrypted-media"
         />
         <p>
-          After listening to the song and messaging Kyle to tell him how cool the song is, Shannon does some mild Facebook  stalking and realizes that Kyle lives in San Francisco.
-          Since she’s already planning on road tripping through California with
-          her awesome friend Liz, she messages him on Facebook to see if he wants to hang out.
+          After listening to the song and messaging Kyle to tell him how cool
+          the song is, Shannon does some mild Facebook stalking and realizes
+          that Kyle lives in San Francisco. Since she’s already planning on road
+          tripping through California with her awesome friend Liz, she messages
+          him on Facebook to see if he wants to hang out.
         </p>
         <h3>July 4, 2015</h3>
         <Img fluid={data.sf.childImageSharp.fluid} />
         <p>
-          <em>Liz, Shannon, and Kyle feeling post-Thai food happiness in San Fran!</em>
+          <em>
+            Liz, Shannon, and Kyle feeling post-Thai food happiness in San Fran!
+          </em>
         </p>
         <h3>March 3, 2016</h3>
         <p>
@@ -297,8 +310,8 @@ const App = ({ data }) => (
         </p>
         <h3>August 21, 2017</h3>
         <p>
-          Shannon invites Kyle to go watch the
-          solar eclipse in Idaho with her and her friends.
+          Shannon invites Kyle to go watch the solar eclipse in Idaho with her
+          and her friends.
         </p>
         <Img fluid={data.eclipse.childImageSharp.fluid} />
         <p>
@@ -306,8 +319,9 @@ const App = ({ data }) => (
         </p>
         <h3>August 2017 — February 2018</h3>
         <p>
-          Shannon and Kyle go on intermittent dates and flail around for a while, sorting through their
-          feelings, until they decide to start dating in earnest in February 2018.{" "}
+          Shannon and Kyle go on intermittent dates and flail around for a
+          while, sorting through their feelings, until they decide to start
+          dating in earnest in February 2018.{" "}
         </p>
         <h3>February 2018 — now</h3>
         <p>
@@ -341,9 +355,7 @@ const App = ({ data }) => (
         <dl>
           <dt>12:30-2:30 pm</dt> <dd>Small ceremony for close family</dd>
           <dt>2:30-3:00 pm</dt>{" "}
-          <dd>
-            Photos outside the temple with anyone who’d like to be there
-          </dd>
+          <dd>Photos outside the temple with anyone who’d like to be there</dd>
           <dt>3:00-4:00 pm</dt>{" "}
           <dd>The happy couple will be taking more couple photos</dd>
         </dl>
@@ -369,9 +381,7 @@ const App = ({ data }) => (
           <dt>5:00–6:00 pm</dt>
           <dd>Reception line to greet the happy couple and their families!</dd>
           <dt>6:00–6:30 pm</dt>
-          <dd>
-            The happy couple will be eating with their families
-          </dd>
+          <dd>The happy couple will be eating with their families</dd>
           <dt>6:30–7:00 pm</dt>
           <dd>
             The happy (and fading, fatiguing) couple will mingle, relax, wander,
