@@ -257,27 +257,10 @@ const App = ({ data }) => (
           since she’s already planning on road tripping through California with
           a friend, she messages him on Facebook to see if he wants to hang out.
         </p>
-        <p>
-          <strong>Shannon:</strong> Hey me and a friend are going to be in Palo
-          Alto/San Fran over 4th of July weekend! It'd be cool to meet up
-          sometime! And any suggestions for cool 4th o' July things...?
-        </p>
-        <p>
-          <strong>Kyle:</strong>
-          {` `}
-          Would love to hang out plus will brainstorm some ideas … [later] sooo
-          I had an idea for something to do while you and your friend are here.
-          A friend and I were talking about this who also has some friends
-          coming into town. Basically Saturday the fourth we'd do a "bakery
-          crawl" starting at my house in inner sunset and visiting first a
-          bakery near me and then city hiking our way to a bakery in the
-          mission. It's a pretty walk and you'd get to eat lots of delicious
-          bread.
-        </p>
         <h3>July 4, 2015</h3>
         <Img fluid={data.sf.childImageSharp.fluid} />
         <p>
-          <em>post-Thai food happiness w/ Liz Lyon</em>
+          <em>Liz, Shannon, and Kyle feeling post-Thai food happiness in San Fran!</em>
         </p>
         <h3>March 3, 2016</h3>
         <p>
@@ -287,30 +270,6 @@ const App = ({ data }) => (
           Shannon goes to see Kyle speak on{" "}
           <a href="https://www.gatsbyjs.org">Gatsby</a> @ Startup building in
           Provo, UT
-        </p>
-        <p>Story from two perspectives:</p>
-        <p>
-          <strong>Shannon:</strong> My brother and I went to see Kyle after he
-          gave a talk at a UtahJS meetup and got ice cream at Rockwell’s ice
-          cream parlor on University Avenue in Provo. My primary motivation for
-          going to talk to Kyle was actually to convince my brother to move to
-          San Francisco, because my brother is a UX designer and I was thinking
-          he might love hearing about Kyle’s life out there. They had fun
-          talking and so did I--and then, after giving Kyle a ride home to stay
-          at his mom’s house in Lehi, Kyle and I talked in the car for a long
-          time and it was really fun. When I got home, I wrote something in my
-          iPhone notes about how “it almost felt like we were going to kiss”
-          when we were talking in the car. I still sort of dismissed the
-          experience since Kyle lived far away, though I did keep texting him
-          every once in a while.
-        </p>
-        <p>
-          <strong>Kyle:</strong> I was excited by her interest in attending the
-          meetup. I still wasn’t sure what I thought about her. In our
-          conversation on the way home, I was really surprised by the strong
-          connection I felt and how interested I was in everything she was
-          saying. I really appreciated the depth of how she thought and felt
-          things in her life.
         </p>
         <h3>March 11, 2016</h3>
         <p>
@@ -323,41 +282,24 @@ const App = ({ data }) => (
         </p>
         <h3>April 24, 2016</h3>
         <p>
-          <strong>Thai food and hike date</strong> — They plan a “get together”
-          when Kyle is in Utah — Shannon asks if it’s a date — Kyle says yes,
-          proposes that they stay in touch through email afterwards, which
-          fizzles into a friendship again because Shannon didn’t want to do
-          another long distance relationship (she had attempted it several times
-          with mixed results :).
+          <strong>Thai food and hike date</strong>
         </p>
         <h3>November 26, 2016</h3>
         <p>
-          <strong>Mexican treat place</strong> — Shannon takes Kyle to her
+          <strong>Mexican treat place date</strong> — Shannon takes Kyle to her
           parent’s house. Kyle impresses parents with knowledge of construction
           terms like
           {` `}
-          <a href="https://en.wikipedia.org/wiki/I-beam">“i-beam”</a>. They go
-          to a Mexican dessert place. Cashier tells Shannon in Spanish that we
-          “look so in love” (“les parecen tan enamorados!”). Shannon tells Kyle
-          this and he has absolutely no idea how to respond so says nothing :)
+          <a href="https://en.wikipedia.org/wiki/I-beam">“i-beam”</a>.
         </p>
         <h3>July 2017</h3>
         <p>
-          <strong>Dinner and bike ride date:</strong> — Kyle and Shannon got
-          dinner and then a few days later, go on a bike ride with Shannon’s
-          friends, Mallory and Aaron. Shannon asks Kyle if he likes her and they
-          talk for a long time and she sends this text afterwards: “That hug was
-          really nice :)” Then on Sunday they make dinner, go on a walk and look
-          at gardens, and watch a couple episodes of Jonathan Strange and Mr.
-          Norrell and KISSSSS for the first time. Shannon is in the midst of
-          trying to date 3 different guys, ends up halfway dating another man
-          for fall 2017.
+          <strong>Dinner and bike ride date:</strong>
         </p>
         <h3>August 21, 2017</h3>
         <p>
-          As part friend / part crush, Shannon invites Kyle to go watch the
-          solar eclipse in Idaho with she and her friends. They end the trip
-          still as friends.
+          Shannon invites Kyle to go watch the
+          solar eclipse in Idaho with she and her friends.
         </p>
         <Img fluid={data.eclipse.childImageSharp.fluid} />
         <p>
@@ -365,8 +307,8 @@ const App = ({ data }) => (
         </p>
         <h3>August 2017 — February 2018</h3>
         <p>
-          Shannon and Kyle flail around for a while sorting through their
-          feelings until they decide to start dating again in February 2018.{" "}
+          Shannon and Kyle go on intermittent dates and flail around for a while, sorting through their
+          feelings, until they decide to start dating in earnest in February 2018.{" "}
         </p>
         <h3>February 2018 — now</h3>
         <p>
