@@ -194,7 +194,7 @@ const App = ({ data }) => (
         <Img fluid={data.party.childImageSharp.fluid} />
         <p>
           <em>
-            The first known photo of Shannon and Kyle at a Halloween party
+            The first known photo of Shannon and Kyle at a Halloween party (see if you can find Kyle in the photo! Hint: he's wearing a vest)
           </em>
         </p>
         <h3>May, 2009</h3>
