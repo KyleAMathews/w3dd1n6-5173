@@ -342,7 +342,7 @@ const App = ({ data }) => (
           <dt>12:30-2:30 pm</dt> <dd>Small ceremony for close family</dd>
           <dt>2:30-3:00 pm</dt>{" "}
           <dd>
-            Photos outside the temple within anyone who’d like to be there
+            Photos outside the temple with anyone who’d like to be there
           </dd>
           <dt>3:00-4:00 pm</dt>{" "}
           <dd>The happy couple will be taking more couple photos</dd>
