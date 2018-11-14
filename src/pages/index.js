@@ -239,10 +239,9 @@ const App = ({ data }) => (
         <h3>January 2011</h3>
         <p>Kyle exits to northern California to chase startup dreams.</p>
         <h3>May 2015</h3>
-        <p>Shannon messages Kyle on Spotify</p>
         <p>
-          It’s been 6 years since we last talked and then Shannon follows Kyle
-          on Spotify and thinks this song he's listening to is cool.
+          It’s been 6 years since we last talked, and then Shannon follows Kyle
+          on Spotify and thinks a song he's listening to is cool. Listen to the song below!
         </p>
         <iframe
           src="https://open.spotify.com/embed/track/01txDiOnBPfMrVQwPQtDHR"
@@ -253,9 +252,9 @@ const App = ({ data }) => (
           allow="encrypted-media"
         />
         <p>
-          Through Facebook, she realizes that Kyle lives in San Francisco and
-          since she’s already planning on road tripping through California with
-          a friend, she messages him on Facebook to see if he wants to hang out.
+          After listening to the song and messaging Kyle to tell him how cool the song is, Shannon does some mild Facebook  stalking and realizes that Kyle lives in San Francisco.
+          Since she’s already planning on road tripping through California with
+          her awesome friend Liz, she messages him on Facebook to see if he wants to hang out.
         </p>
         <h3>July 4, 2015</h3>
         <Img fluid={data.sf.childImageSharp.fluid} />
@@ -282,7 +281,7 @@ const App = ({ data }) => (
         </p>
         <h3>April 24, 2016</h3>
         <p>
-          <strong>Thai food and hike date</strong>
+          <strong>Thai food and hike date.</strong>
         </p>
         <h3>November 26, 2016</h3>
         <p>
@@ -294,12 +293,12 @@ const App = ({ data }) => (
         </p>
         <h3>July 2017</h3>
         <p>
-          <strong>Dinner and bike ride date:</strong>
+          <strong>Dinner and bike ride date.</strong>
         </p>
         <h3>August 21, 2017</h3>
         <p>
           Shannon invites Kyle to go watch the
-          solar eclipse in Idaho with she and her friends.
+          solar eclipse in Idaho with her and her friends.
         </p>
         <Img fluid={data.eclipse.childImageSharp.fluid} />
         <p>
