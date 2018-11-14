@@ -4,7 +4,8 @@ const typography = new Typography({
   baseFontSize: `18px`,
   headerFontFamily: [`Benguiat`],
   bodyFontFamily: [`Benguiat`],
-  overrideThemeStyles: ({ rhythm }) => ({
+  blockMarginBottom: 0.666,
+  overrideStyles: ({ rhythm }, options) => ({
     a: {
       color: "#28517f",
     },
@@ -23,6 +24,12 @@ const typography = new Typography({
     },
     dd: {
       marginBottom: rhythm(1 / 2),
+    },
+    p: {
+      marginBottom: rhythm(options.blockMarginBottom),
+    },
+    ".gatsby-image-wrapper": {
+      marginBottom: rhythm(1 / 8),
     },
   }),
 });
