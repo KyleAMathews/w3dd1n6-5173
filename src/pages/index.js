@@ -326,7 +326,7 @@ const App = ({ data }) => (
         <p>
           There will be wedding attendees with severe chemical sensitivities. We
           kindly ask that you refrain from using artificial fragrances on our
-          wedding day (perfumes, colognes, lotions, hairspray, etc. Natural
+          wedding day (perfumes, colognes, lotions, hairspray, etc). Natural
           fragrances like essential oils are fine 😀
         </p>
         <h2>Wedding ceremony & photos</h2>
@@ -350,7 +350,7 @@ const App = ({ data }) => (
         <h4>Ideas for what to do until the reception at 5:00 pm</h4>
         <ul>
           <li>
-            Stroll around the temple grounds or Provo Center Street to site see
+            Stroll around the temple grounds or Provo Center Street to sightsee
             or visit shops
           </li>
           <li>
