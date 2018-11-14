@@ -198,9 +198,9 @@ const App = ({ data }) => (
           </em>
         </p>
         <h3>May, 2009</h3>
-        <p>Kyle and Shannon go on double date with… each other's roommates!</p>
+        <p>Kyle and Shannon go on a double date with… each other's roommates!</p>
         <p>
-          Shannon says she wants to edit a science journal. Kyle thinks: “what
+          Shannon says she wants to edit a science journal. Kyle thinks: “What
           an attractive woman!”
         </p>
         <h3>July 2009</h3>
@@ -215,7 +215,7 @@ const App = ({ data }) => (
         <h3>August 2009</h3>
         <p>
           Kyle texts Shannon to ask her on a date and she doesn't respond for
-          several weeks because her phone is broken 😅
+          several weeks because her phone is broken. 😅
         </p>
         <p>They plan to go on another date, and then this happens:</p>
         <p>
@@ -235,9 +235,9 @@ const App = ({ data }) => (
           events of the date.
         </p>
         <h3>October 2009</h3>
-        <p>Shannon exits to southern California for a 1.5 year LDS mission.</p>
+        <p>Shannon exits to Southern California for a 1.5 year LDS mission.</p>
         <h3>January 2011</h3>
-        <p>Kyle exits to northern California to chase startup dreams.</p>
+        <p>Kyle exits to Northern California to chase startup dreams.</p>
         <h3>May 2015</h3>
         <p>
           It’s been 6 years since we last talked, and then Shannon follows Kyle
