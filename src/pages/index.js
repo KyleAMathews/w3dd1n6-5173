@@ -353,10 +353,10 @@ const App = ({ data }) => (
         </p>
         <h3>Schedule:</h3>
         <dl>
-          <dt>12:30-2:30 pm</dt> <dd>Small ceremony for close family</dd>
-          <dt>2:30-3:00 pm</dt>{" "}
+          <dt>2:00-2:30 pm</dt> <dd>Small ceremony for close family (must arrive at 1:30 pm to be seated)</dd>
+          <dt>2:45-3:45 pm</dt>{" "}
           <dd>Photos outside the temple with anyone who’d like to be there</dd>
-          <dt>3:00-4:00 pm</dt>{" "}
+          <dt>3:45-4:45 pm</dt>{" "}
           <dd>The happy couple will be taking more couple photos</dd>
         </dl>
         <h4>Ideas for what to do until the reception at 5:00 pm</h4>
