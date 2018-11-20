@@ -152,7 +152,7 @@ const App = ({ data }) => (
                 css={{ color: `inherit`, textDecoration: `none` }}
                 href="#venues"
               >
-                Venues
+                Venues & Schedule
               </AnchorLink>
             </Li>
             <Li>
@@ -355,7 +355,7 @@ const App = ({ data }) => (
         <dl>
           <dt>2:00-2:30 pm</dt> <dd>Small ceremony for close family (must arrive at 1:30 pm to be seated)</dd>
           <dt>2:45-3:45 pm</dt>{" "}
-          <dd>Photos outside the temple with anyone who’d like to be there</dd>
+          <dd>Photos outside the temple with anyone who’d like to be there. (you can wait inside the pavilion if you get cold and they'll announce when we're coming out! Thanks to Kristen for this tip!)</dd>
           <dt>3:45-4:45 pm</dt>{" "}
           <dd>The happy couple will be taking more couple photos</dd>
         </dl>
